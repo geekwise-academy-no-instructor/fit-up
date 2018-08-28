@@ -1,3 +1,45 @@
 .logo {
     width:35%;
 }
+
+.navbar {
+    background-color: rgba(0,0,0,0.3);
+    font-family: 'Titillium Web', san-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+a.nav-link {
+    color: #ffffff;
+  }
+
+a.nav-link:hover {
+    color: #ED8822;
+  }
+
+:focus {
+    outline: none;
+}
+
+.hero {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.hero-body {
+    align-items: center;
+}
+
+.hero-text {
+    color: white;
+    font-family: 'Titillium Web', san-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.button {
+    text-align: center;
+}
