@@ -1,0 +1,32 @@
+.container-fluid{
+  height: 100vh;
+  background: #929291;
+  background-position: cover;
+  background-attachment: fixed;
+  font-family: Titillium Web;
+  font-weight: 400;
+}
+
+h3{
+  color: #ED8822;
+  font-size: 1.875rem;
+}
+
+h4{
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+label{
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+button{
+  background-color: #2C2C80;
+  color: #fff;
+}
+
+.btn{
+  font-size: 1.875rem;
+}
