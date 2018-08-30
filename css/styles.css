@@ -1,45 +1,54 @@
-.logo {
-    width:35%;
-}
-
-.navbar {
-    background-color: rgba(0,0,0,0.3);
-    font-family: 'Titillium Web', san-serif;
-    text-transform: uppercase;
-    font-size: 15px;
-}
-
-a.nav-link {
-    color: #ffffff;
+body {
+    position: relative;
+    background-color: #ED8822;
   }
-
-a.nav-link:hover {
-    color: #ED8822;
-  }
-
-:focus {
-    outline: none;
-}
-
-.hero {
-    background-image: url(../images/background.jpg);
+ 
+.home-hero {
+    background-image: url('../images/background.jpg');
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    height: 100vh;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin-bottom: 0;
 }
 
 .hero-body {
-    align-items: center;
-}
-
-.hero-text {
-    color: white;
-    font-family: 'Titillium Web', san-serif;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-.button {
     text-align: center;
+}
+
+.hero-body h1 {
+    font-family: 'Titillium Web', san-serif;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+.new-user {
+    color: #ED8822;
+    text-align: center;
+}
+
+.new-user:hover {
+    color: #E9984E;
+    text-decoration: none;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #2C2C80;
+    border-color: #2C2C80;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #44447F;
+    border-color: #44447F;
+    transition: all .15s ease-out
+}
+
+.navbar-brand {
+    width: 10%;
 }
