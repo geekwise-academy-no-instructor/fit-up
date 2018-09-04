@@ -1,6 +1,6 @@
 body {
     position: relative;
-    background-color: #ED8822;
+    background-color: #2C2C80;
   }
  
 .home-hero {
@@ -10,7 +10,7 @@ body {
     background-size: cover;
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: 75vh;
     margin-bottom: 0;
 }
 
@@ -51,4 +51,44 @@ body {
 
 .navbar-brand {
     width: 10%;
+}
+
+.about {
+    padding-top: 35px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background-color: #ED8822;
+}
+
+.fa-dumbbell, .fa-weight, .fa-spa {
+    font-size: 40px;
+    padding-bottom: 25px;
+}
+
+.contact {
+    background-color: #5c5c5c;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact-head {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+}
+
+.github {
+    text-decoration: none;
+    color: white;
+}
+
+.github:hover {
+    color: #ED8822;
+}
+
+.fa-github {
+    font-size: 30px;
 }
