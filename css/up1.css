@@ -1,7 +1,16 @@
+/* global tags*/
+.font1{
+    font-family: Titillium Web;
+}
+.font2{
+    font-family: raleway;
+}
+
+/* global tags end */
+
 .body{
     height: 100vh;
     background-color: #929291;
-    font-family: Titillium Web;
     font-weight: 400;
 }
 .title{
@@ -11,6 +20,7 @@
 h3{
     color: #ED8822;
     font-size: 1.875rem;
+    
 }
 h4{
     color: #fff;
@@ -30,7 +40,7 @@ h4{
   p{
     color: #fff;
   }
-  input{
+input{
       width: 93%
   }
 .checkbtn{
