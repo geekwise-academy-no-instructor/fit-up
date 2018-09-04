@@ -82,7 +82,7 @@ body {
 
 .github {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
 }
 
 .github:hover {
@@ -92,3 +92,4 @@ body {
 .fa-github {
     font-size: 30px;
 }
+
