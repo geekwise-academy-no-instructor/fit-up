@@ -1,0 +1,33 @@
+.container-fluid{
+  height: 150vh;
+  background: #929291;
+  background-position: cover;
+  background-attachment: fixed;
+}
+
+h3{
+  color: #ED8822;
+  font-size: 1.875rem;
+  font-family: "Titillium Web";
+  font-weight: 400;
+}
+
+label{
+  color: #fff;
+  font-size: 1.25rem;
+  font-family: "Raleway";
+  font-weight: 400;
+}
+
+input{
+  font-family: "Raleway";
+  font-weight: 400;
+}
+
+.btn{
+  background-color: #2C2C80;
+  color: #fff;
+  font-size: 1.875rem;
+  font-family: "Titillium Web";
+  font-weight: 400;
+}
