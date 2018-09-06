@@ -1,0 +1,50 @@
+/* global tags*/
+.font1{
+    font-family: Titillium Web;
+}
+.font2{
+    font-family: raleway;
+}
+
+/* global tags end */
+
+.body{
+    height: 100vh;
+    background-color: #929291;
+    font-weight: 400;
+}
+.title{
+    padding-top: 6em;
+
+}
+h3{
+    color: #ED8822;
+    font-size: 1.875rem;
+    
+}
+h4{
+    color: #fff;
+    font-size: 1.25rem;
+  }
+   label{
+    color: #fff;
+    font-size: 1.25rem;
+  }
+   button{
+    background-color: #2C2C80;
+    color: #fff;
+  }
+   .btn{
+    font-size: 1.875rem;
+  }
+  p{
+    color: #fff;
+  }
+input{
+      width: 93%
+  }
+.checkbtn{
+    margin-top: 1%;
+    margin-left: 2%;
+    color: #ED8822;
+}
