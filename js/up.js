@@ -8,18 +8,15 @@ const cityInput = document.querySelector('#city').value;
 const stateInput = document.querySelector('#state').value;
 const fitnessGoalsInput = document.querySelector('#fitnessGoals').value;
 
-console.log(ageInput);
 
-// function populateLocalStorage() {
-//     localStorage.setItem('age', 'ageInput');
-//     localStorage.setItem('height', 'heightInput');
-//     localStorage.setItem('weight', 'weightInput');
-//     localStorage.setItem('bmi', 'bmiInput');
-//     localStorage.setItem('city', 'cityInput');
-//     localStorage.setItem('state', 'stateInput');
-//     localStorage.setItem('fitnessGoals', 'fitnessGoalsInput');
-// };
-// populateLocalStorage();
-
-console.log(ageInput);
+function populateLocalStorage() {
+    localStorage.setItem('age', 'ageInput');
+    localStorage.setItem('height', 'heightInput');
+    localStorage.setItem('weight', 'weightInput');
+    localStorage.setItem('bmi', 'bmiInput');
+    localStorage.setItem('city', 'cityInput');
+    localStorage.setItem('state', 'stateInput');
+    localStorage.setItem('fitnessGoals', 'fitnessGoalsInput');
+};
+populateLocalStorage();
 
