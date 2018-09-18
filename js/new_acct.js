@@ -1,17 +1,17 @@
-const firstNameInput = document.getElementById('firstname');
-const lastNameInput = document.getElementById('lastname');
-const emailInput = document.getElementById('email');
-const userNameInput = document.getElementById('username');
-const passwordInput = document.getElementById('password');
-const confirmPasswordInput = document.getElementById('confirm_password');
+const firstNameInput = document.getElementById('firstname').value;
+const lastNameInput = document.getElementById('lastname').value;
+const emailInput = document.getElementById('email').value;
+const userNameInput = document.getElementById('username').value;
+const passwordInput = document.getElementById('password').value;
+const confirmPasswordInput = document.getElementById('confirm_password').value;
 
 function populateStorage() {
-  localStorage.setItem('firstname', document.getElementById('firstname').value);
-  localStorage.setItem('lastname', document.getElementById('lastname').value);
-  localStorage.setItem('email', document.getElementById('email').value);
-  localStorage.setItem('username', document.getElementById('username').value);
-  localStorage.setItem('password', document.getElementById('password').value);
-  localStorage.setItem('confirm_password', document.getElementById('confirm_password').value);  
+  localStorage.setItem('firstname', firstNameInput);
+  localStorage.setItem('lastname', lastNameInput);
+  localStorage.setItem('email', emailInput);
+  localStorage.setItem('username', userNameInput);
+  localStorage.setItem('password', passwordInput);
+  localStorage.setItem('confirm_password', confirmPasswordInput);  
 }
 populateStorage();
 
