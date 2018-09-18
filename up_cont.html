@@ -12,15 +12,15 @@
 <body>
     <div class="container-fluid">
         <h3 class="text-center pt-5"><b>User Profile (cont.)</b></h3>
-      <form id="upContForm" name="upContForm">
         <div class="exWeek">
          <div class="col-md-6 offset-md-3">
+        <form id="upContForm" name="upContForm">
            <h4 class="mt-5">How often do you exercise per week?</h4>
              <div class="input-group mb-3">
                <div class="input-group-prepend">
-                 <label class="input-group-text" for="inputGroupSelect01">Options</label>
+                 <label class="input-group-text" for="exPerWeek">Options</label>
               </div>
-              <select class="custom-select" id="inputGroupSelect01">
+              <select class="custom-select" id="exPerWeek">
                 <option selected>Choose from the following:</option>
                 <option value="1">0-1 days</option>
                 <option value="2">2-3 days</option>
@@ -28,14 +28,13 @@
                 <option value="4">more than 5 days</option>
               </select>
             </div>
-          </div>
           <h4 class="mt-5">How much time can you exercise per day?</h4>
           <div id="exDay" class="exDay">
             <div class="input-group mb-3">
                 <div class="input-group-prepend">
-                  <label class="input-group-text" for="inputGroupSelect02">Options</label>
+                  <label class="input-group-text" for="exPerDay">Options</label>
                 </div>
-                <select class="custom-select" id="inputGroupSelect02">
+                <select class="custom-select" id="exPerDay">
                   <option selected>Choose from the following:</option>
                   <option value="1">0-30 minutes</option>
                   <option value="2">30-50 minutes</option>
@@ -48,9 +47,9 @@
           <div id="exSet" class="exSet">
             <div class="input-group mb-3">
                 <div class="input-group-prepend">
-                  <label class="input-group-text" for="inputGroupSelect03">Options</label>
+                  <label class="input-group-text" for="exSetting">Options</label>
                 </div>
-                <select class="custom-select" id="inputGroupSelect03">
+                <select class="custom-select" id="exSetting">
                   <option selected>Choose from the following:</option>
                   <option value="1">Home</option>
                   <option value="2">Studio gym</option>
@@ -59,15 +58,15 @@
                 </select>
             </div>  
           </div>
-      
+        </form>
+      </div>
           <div class="form-row text-center">
               <div class="col-md-12">
                 <a href="mobility.html">
-                  <button class="btn text-center mt-5" type="submit"><b>NEXT</b></button>
-                </a>
+                  <button class="btn text-center mt-5" type="submit"><b>NEXT</b></button></a>
               </div>
           </div>
-        </form>
+        
       </div>     
     
 
@@ -75,6 +74,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="js/up_cont.js"></script>
-    <script src="js/scripts.js"></script>
+    
 </body>
 </html>
