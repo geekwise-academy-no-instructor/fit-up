@@ -5,21 +5,25 @@
 
 .orange {
   color:#ED8822;
-  font-family: 'Titillium Web';
+  font-family: "Titillium Web";
+  font-weight: 400;
 }
 
 .blue {
   color:#2c2c80;
+  font-family: "Raleway";
+  font-weight: 400;
 }
 
 .white {
   color:#FFF;
-  font-family: 'Raleway';
+  font-family: "Raleway";
+  font-weight: 400;
 }
 
-h3 {
-  font-family: 'Raleway';
-  font-weight: 700;
+.input-font {
+  font-family: "Raleway";
+  font-weight: 400;
 }
 
 .top {
@@ -32,10 +36,11 @@ h3 {
   border-color: #2c2c80;
 }
 
+.bg-primary {
+  background-color: #2c2c80 !important;
+}
+
 .ghost {
   display: none;
 }
 
-.bg-primary {
-  background-color: #2C2C80!important;
-}

@@ -12,11 +12,12 @@
 <body>
     <div class="container-fluid">
         <h3 class="text-center pt-5"><b>User Profile (cont.)</b></h3>
-      <div class="col-md-6 offset-md-3">
-        <h4 class="mt-5">How often do you exercise per week?</h4>
-          <div class="input-group mb-3">
-              <div class="input-group-prepend">
-                <label class="input-group-text" for="inputGroupSelect01">Options</label>
+        <form class="exWeek">
+         <div class="col-md-6 offset-md-3">
+           <h4 class="mt-5">How often do you exercise per week?</h4>
+             <div class="input-group mb-3">
+               <div class="input-group-prepend">
+                 <label class="input-group-text" for="inputGroupSelect01">Options</label>
               </div>
               <select class="custom-select" id="inputGroupSelect01">
                 <option selected>Choose from the following:</option>
@@ -26,7 +27,9 @@
                 <option value="4">more than 5 days</option>
               </select>
             </div>
+          </form>
         <h4 class="mt-5">How much time can you exercise per day?</h4>
+        <form id="exDay" class="exDay">
           <div class="input-group mb-3">
               <div class="input-group-prepend">
                 <label class="input-group-text" for="inputGroupSelect02">Options</label>
@@ -39,7 +42,9 @@
                 <option value="4">more 2 hours</option>
               </select>
             </div>
+          </form>
         <h4 class="mt-5">Preferred Exercise Setting?</h4>
+        <form if="exSet" class="exSet">
           <div class="input-group mb-3">
               <div class="input-group-prepend">
                 <label class="input-group-text" for="inputGroupSelect03">Options</label>
@@ -52,6 +57,7 @@
                 <option value="4">Outdoors</option>
               </select>
           </div>  
+        </form>
           <div class="form-row text-center">
               <div class="col-md-12">
                 <a href="mobility.html">
