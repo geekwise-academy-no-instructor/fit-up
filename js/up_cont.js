@@ -13,5 +13,5 @@ function popLS(){
 }
 popLS();
 
-
+console.log(localStorage.getItem('exPerWeek'));
 
