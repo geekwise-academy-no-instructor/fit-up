@@ -21,6 +21,23 @@
   font-weight: 400;
 }
 
+.white-buttons {
+  color:#FFF;
+  background-color:#5C5C5C;
+  border-color: #5C5C5C;
+  font-family: "Raleway";
+  font-weight: 400;
+}
+
+.modal-bg {
+  background-color:#5C5C5C;
+}
+
+.image-center {
+  display: block;
+  margin: 0 auto;
+}
+
 .input-font {
   font-family: "Raleway";
   font-weight: 400;
@@ -43,4 +60,3 @@
 .ghost {
   display: none;
 }
-

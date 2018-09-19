@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Fit Up</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700|Titillium+Web:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
@@ -15,88 +16,377 @@
 
     <form name="mobCheckBox" id="mobCheckBox">
 
+      <!-- Front View Comps -->
       <div class="row top">
         <div class="col-md-12">
           <h3 class="white">Front View Compensations: (Check all that apply)</h3>
         </div>
       </div>
-
       <div class="row white">
+
+        <!-- Feet Turn Out -->
         <div class="col-md-3">
-          <input type="checkbox" id="feetTurnOut">
-          Feet Turn Out
+          <p>
+            <input type="checkbox" id="feetTurnOut">
+            Feet Turn Out
+            <button type="button" data-toggle="modal" class="white-buttons" data-target="#feetTurnOutModal">
+              <i class="fas fa-info-circle"></i>
+            </button>
+          </p>
+          <div class="modal fade" id="feetTurnOutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content modal-bg">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="images/feetTurnOut.jpg" id="modalImage" class="image-center" alt="Feet Turn Out Image">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
+
+        <!-- Feet Flatten Anterior -->
         <div class="col-md-3">
-          <input type="checkbox" id="feetFlatten1">
-          Feet Flatten
+          <p>
+            <input type="checkbox" id="feetFlatten1">
+            Feet Flatten
+            <button type="button" data-toggle="modal" class="white-buttons" data-target="#feetFlatAntModal">
+              <i class="fas fa-info-circle"></i>
+            </button>
+          </p>
+          <div class="modal fade" id="feetFlatAntModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content modal-bg">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="images/feetFlatAnt.jpg" id="modalImage" class="image-center" alt="Feet Flatten Anterior Image">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
+
+        <!-- Knees Move In -->
         <div class="col-md-3">
-          <input type="checkbox" id="kneesMoveIn">
-          Knees Move Inward
+          <p>
+            <input type="checkbox" id="kneesMoveIn">
+            Knees Move Inward
+            <button type="button" data-toggle="modal" class="white-buttons" data-target="#kneesMoveInModal">
+              <i class="fas fa-info-circle"></i>
+            </button>
+          </p>
+          <div class="modal fade" id="kneesMoveInModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content modal-bg">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="images/kneesMoveIn.jpg" id="modalImage" class="image-center" alt="Knees Move In Image">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
+
+        <!-- Knees Move Out -->
         <div class="col-md-3">
-          <input type="checkbox" id="kneesMoveOut">
-          Knees Move Outward
+          <p>
+            <input type="checkbox" id="kneesMoveOut">
+            Knees Move Outward
+            <button type="button" data-toggle="modal" class="white-buttons" data-target="#kneesMoveOutModal">
+              <i class="fas fa-info-circle"></i>
+            </button>
+          </p>
+          <div class="modal fade" id="kneesMoveOutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content modal-bg">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="images/kneesMoveOut.jpg" id="modalImage" class="image-center" alt="Knees Move Out Image">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
 
+      <!-- Side View Comps -->
       <div class="row top">
         <div class="col-md-12">
           <h3 class="white">Side View Compensations: (Check all that apply)</h3>
         </div>
       </div>
-
       <div class="row white">
+
+        <!-- Low Back Arches -->
         <div class="col-md-3">
-          <input type="checkbox"id="lowBackArches">
-          Low Back Arches
+          <p>
+            <input type="checkbox"id="lowBackArches">
+            Low Back Arches
+            <button type="button" data-toggle="modal" class="white-buttons" data-target="#lowBackArchesModal">
+              <i class="fas fa-info-circle"></i>
+            </button>
+          </p>
+          <div class="modal fade" id="lowBackArchesModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content modal-bg">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="images/lowBackArches.jpg" id="modalImage" class="image-center" alt="Low Back Arches Image">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
+
+        <!-- Low Back Rounds -->
         <div class="col-md-3">
-          <input type="checkbox" id="lowBackRounds">
-          Low Back Rounds
+          <p>
+            <input type="checkbox" id="lowBackRounds">
+            Low Back Rounds
+            <button type="button" data-toggle="modal" class="white-buttons" data-target="#lowBackRoundsModal">
+              <i class="fas fa-info-circle"></i>
+            </button>
+          </p>
+          <div class="modal fade" id="lowBackRoundsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content modal-bg">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="images/lowBackRounds.jpg" id="modalImage" class="image-center" alt="Low Back Rounds Image">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
+
+        <!-- Excessive Forward Lean -->
         <div class="col-md-3">
-          <input type="checkbox" id="forwardLean">
-          Excessive Forward Lean
+          <p>
+            <input type="checkbox" id="forwardLean">
+            Excessive Forward Lean
+            <button type="button" data-toggle="modal" class="white-buttons" data-target="#forwardLeanModal">
+              <i class="fas fa-info-circle"></i>
+            </button>
+          </p>
+          <div class="modal fade" id="forwardLeanModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content modal-bg">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="images/forwardLean.jpg" id="modalImage" class="image-center" alt="Excessive Forward Lean Image">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
+
+        <!-- Arms Fall Forward -->
         <div class="col-md-3">
-          <input type="checkbox" id="armsFallForward">
-          Arms Fall Forward
+          <p>
+            <input type="checkbox" id="armsFallForward">
+            Arms Fall Forward
+            <button type="button" data-toggle="modal" class="white-buttons" data-target="#armsFallForwardModal">
+              <i class="fas fa-info-circle"></i>
+            </button>
+          </p>
+          <div class="modal fade" id="armsFallForwardModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content modal-bg">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="images/armsFall.jpg" id="modalImage" class="image-center" alt="Arms Fall Forward Image">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
 
+      <!-- Back View Comps -->
       <div class="row top">
         <div class="col-md-12">
           <h3 class="white">Back View Compensations: (Check all that apply)</h3>
         </div>
       </div>
-
       <div class="row white">
+
+        <!-- Feet Flatten Posterior -->
         <div class="col-md-3">
-          <input type="checkbox" id="feetFlatten2">
+          <p>
+            <input type="checkbox" id="feetFlatten2">
             Feet Flatten
+            <button type="button" data-toggle="modal" class="white-buttons" data-target="#feetFlatPostModal">
+              <i class="fas fa-info-circle"></i>
+            </button>
+          </p>
+          <div class="modal fade" id="feetFlatPostModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content modal-bg">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="images/feetFlatPost.jpg" id="modalImage" class="image-center" alt="Feet Flatten Posterior Image">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
+
+        <!-- Heels Rise  -->
         <div class="col-md-3">
-          <input type="checkbox" id="heelsRise">
+          <p>
+            <input type="checkbox" id="heelsRise">
             Heels Rise Off Floor
+            <button type="button" data-toggle="modal" class="white-buttons" data-target="#heelsRiseModal">
+              <i class="fas fa-info-circle"></i>
+            </button>
+          </p>
+          <div class="modal fade" id="heelsRiseModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content modal-bg">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="images/heelsRise.jpg" id="modalImage" class="image-center" alt="Low Back Rounds Image">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
+
+        <!-- Weight Shift Left  -->
         <div class="col-md-3">
-          <input type="checkbox" id="weightShiftLeft">
+          <p>
+            <input type="checkbox" id="weightShiftLeft">
             Weight Shift - Left
+            <button type="button" data-toggle="modal" class="white-buttons" data-target="#weightShiftLeftModal">
+              <i class="fas fa-info-circle"></i>
+            </button>
+          </p>
+              <div class="modal fade" id="weightShiftLeftModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content modal-bg">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="images/weightShift.jpg" id="modalImage" class="image-center" alt="Low Back Rounds Image">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
+
+        <!-- Weight Shift Right -->
         <div class="col-md-3">
-          <input type="checkbox" id="weightShiftRight">
+          <p>
+            <input type="checkbox" id="weightShiftRight">
             Weight Shift - Right
+            <button type="button" data-toggle="modal" class="white-buttons" data-target="#weightShiftRightModal">
+              <i class="fas fa-info-circle"></i>
+            </button>
+          </p>
+          <div class="modal fade" id="weightShiftRightModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content modal-bg">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="images/weightShift.jpg" id="modalImage" class="image-center" alt="Low Back Rounds Image">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
       </div>
 
-        <div class="text-center">
-          <a href="mobResults.html">
-            <input class="btn btn-primary btn-lg top btn-text" type="submit" value="Submit >">
-          </a>
-        </div>
+      <!-- Submit Button -->
+      <div class="text-center">
+        <a href="mobResults.html">
+          <input class="btn btn-primary btn-lg top btn-text" type="submit" value="Submit >">
+        </a>
+      </div>
 
-      </form>
+    </form>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
