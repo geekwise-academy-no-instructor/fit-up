@@ -1,6 +1,6 @@
 /* global tags*/
 .font1{
-    font-family: Titillium Web;
+    font-family: 'Titillium Web';
 }
 .font2{
     font-family: raleway;
@@ -10,7 +10,7 @@
 
 .body{
     height: 100vh;
-    background-color: #929291;
+    background-color: #5c5c5c;
     font-weight: 400;
 }
 .title{
@@ -20,7 +20,7 @@
 h3{
     color: #ED8822;
     font-size: 1.875rem;
-    
+    font-family: 'Titillium Web', sans-serif;
 }
 h4{
     color: #fff;
