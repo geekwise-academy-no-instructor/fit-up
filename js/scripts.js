@@ -2,10 +2,10 @@ $(document).ready(function() {
     $('#frmBMI').submit(function(e) {
         e.preventDefault();
         
-        var heightFt = $('5').val(),
-            heightIn = $('5"]').val(),
+        var heightFt = $('input[name="height_ft"]"]').val(),
+            heightIn = $('input[name="height_in"]').val(),
             height = parseFloat(heightFt * 12) + parseFloat(heightIn);
-            weight = $('165"]').val(),
+            weight = $('input[name="weight"]').val(),
             BMI = calculateBMI(height, weight);
         
         $('#response').text('Your BMI is '+BMI);
