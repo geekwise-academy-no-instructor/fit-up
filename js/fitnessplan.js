@@ -1,19 +1,12 @@
-$(document).ready(function() {
-  $('#frmBMI').submit(function(e) {
-      e.preventDefault();
-      
-      let heightFt = $('input[name="height_ft"]').val(),
-          heightIn = $('input[name="height_in"]').val(),
-          height = parseFloat(heightFt * 12) + parseFloat(heightIn);
-          weight = $('input[name="weight"]').val(),
-          BMI = calculateBMI(height, weight);
-      
-      $('#response').text('Your BMI is '+BMI);
-  });
-});
+let heightFt = document.getElementById('height_ft').value;
+    heightIn = document.getElementById('height_in').value;
+    height = parseFloat(heightFt * 12) + parseFloat(heightIn);
+    weight = document.getElementById('weight_lb').value;
+    BMI = calculateBMI(height, weight);
 
 function calculateBMI(height, weight) {
-var BMI = (weight / (height * height)) * 703
+  let BMI = (weight / (height * height)) * 703
 
 return Math.round(BMI * Math.pow(10, 2)) / Math.pow(10, 2);
 }
+console.log(BMI);
