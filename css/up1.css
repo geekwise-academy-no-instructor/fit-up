@@ -1,49 +1,78 @@
 /* global tags*/
-.font1{
-    font-family: 'Titillium Web';
+.font1 {
+  font-family: 'Titillium Web';
 }
-.font2{
-    font-family: raleway;
+.font2 {
+  font-family: 'Raleway';
 }
 
 /* global tags end */
 
-.body{
-    height: 100vh;
-    background-color: #5c5c5c;
-    font-weight: 400;
+.body {
+  height: 100vh;
+  background-color: #5c5c5c;
+  font-weight: 400;
 }
-.title{
-    padding-top: 6em;
 
+.title {
+  padding-top: 6em;
 }
-h3{
-    color: #ED8822;
-    font-size: 1.875rem;
-    font-family: 'Titillium Web', sans-serif;
+
+h3 {
+  color: #ED8822;
+  font-size: 1.875rem;
+  font-family: 'Titillium Web', sans-serif;
 }
-h4{
-    color: #fff;
-    font-size: 1.25rem;
-  }
-   label{
-    color: #fff;
-    font-size: 1.25rem;
-  }
-   button{
-    background-color: #2C2C80;
-    color: #fff;
-  }
-   .btn{
-    font-size: 1.875rem;
-  }
-  p{
-    color: #fff;
-    font-size: 1.25rem;
-  }
-input{
-      width: 100%
-  }
-.height_box{
-    width: 30%;
+
+.orange {
+  color: #ED8822;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+h4 {
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+label {
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+.btn {
+  font-size: 1.875rem;
+}
+
+p {
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+input {
+  width: 100%;
+}
+
+.height_box {
+  width: 30%;
+}
+
+.btn-text {
+  font-size: 1.875rem;
+  background-color: #2c2c80;
+  border-color: #2c2c80;
+  color: #fff;
+  font-family: "Titillium Web";
+  font-weight: 400;
+}
+
+.bg-primary {
+  background-color: #2c2c80 !important;
+}
+
+.btn-width {
+  margin-top: 25px;
+  width:20%;
 }

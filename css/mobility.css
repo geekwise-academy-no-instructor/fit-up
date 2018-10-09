@@ -48,9 +48,12 @@
 }
 
 .btn-text {
-  font-size: 1.5em;
+  font-size: 1.875em;
   background-color: #2c2c80;
   border-color: #2c2c80;
+  color: #fff;
+  font-family: "Titillium Web";
+  font-weight: 400;
 }
 
 .bg-primary {
