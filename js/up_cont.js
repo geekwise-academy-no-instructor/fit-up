@@ -2,9 +2,9 @@
 
 const upContForm = document.forms.upContForm
 
-let inputExPerWeek = document.getElementById('exPerWeek').value;
-let inputExPerDay = document.getElementById('exPerDay').value;
-let inputExSetting = document.getElementById('exSetting').value;
+const inputExPerWeek = document.getElementById('exPerWeek').value;
+const inputExPerDay = document.getElementById('exPerDay').value;
+const inputExSetting = document.getElementById('exSetting').value;
 
 function popLS(){
   localStorage.setItem('exPerWeek', inputExPerWeek);
@@ -13,5 +13,5 @@ function popLS(){
 }
 popLS();
 
-console.log(localStorage.getItem('exPerWeek'));
+// console.log(localStorage.getItem('exPerWeek'));
 
