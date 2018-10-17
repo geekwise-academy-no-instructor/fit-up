@@ -2,12 +2,14 @@
 
 const upContForm = document.forms.upContForm
 
+
 let mainFitGoal = localStorage.getItem('fitnessGoals');
 let thirtyMinutes = document.getElementById('thirtyMinutes');
 
 let inputExPerWeek = document.getElementById('exPerWeek').value;
 let inputExPerDay = document.getElementById('exPerDay').value;
 let inputExSetting = document.getElementById('exSetting').value;
+
 
 // Local Storage Population
 
