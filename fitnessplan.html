@@ -11,158 +11,165 @@
 </head>
 <body class="grey-bg">
   <h2 class="text-center orange top">Fitness Plan</h2>
-    <p class="white text-center">Perform the exercise routine outlined below twice per week for at least 30 minutes per session. Also incorporate at least 30 minutes of light cardio (i.e., walking) two times per week.</p>
+  <h3 class="text-center white" id="planHeader"></h3>
   <div id="fitnessPlan">
     <table class="table table-hover table-dark table-bordered input-font" id="warmUpTable">
         <thead>
           <tr>
-            <td colspan="4" class="text-center bg-primary">Total-Body Stabilization Training Circuit</td>
+            <td colspan="4" class="text-center bg-primary">WARM-UP</td>
           </tr>
-            <th scope="col" class="text-center">Warm-Up</th>
+          <tr>
+            <th scope="col">Exercise:</th>
             <th scope="col" class="text-center">Sets</th>
             <th scope="col" class="text-center">Time</th>
+            <th scope="col" class="text-center">Coaching Tip</th>
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <th scope="row">SMR:Gastrocnemius/Soleus</th>
-            <td class="text-center">1</td>
-            <td class="text-center">30 seconds</td>
+          <tr class="ghost" id="smrRow">
+            <th scope="row" id="warmUpSmrEx1"></th>
+            <td class="text-center" id="warmUpSmrSet1"></td>
+            <td class="text-center" id="warmUpSmrTime1"></td>
+            <td class="text-center" id="warmUpSmrCoach1"></td>
+          </tr>
+          <tr class="ghost" id="actStretchRow">
+            <th scope="row" id="warmUpActEx1"></th>
+            <td class="text-center" id="warmUpActSet1"></td>
+            <td class="text-center" id="warmUpActTime1"></td>
+            <td class="text-center" id="warmUpActCoach1"></td>
           </tr>
           <tr>
-            <th scope="row">SMR:Tensor Fascia Latae (TFL)</th>
-            <td class="text-center">1</td>
-            <td class="text-center">30 seconds</td>
+            <th scope="row" id="warmUpEx1"></th>
+            <td class="text-center" id="warmUpSet1"></td>
+            <td class="text-center" id="warmUpTime1"></td>
+            <td class="text-center" id="warmUpCoach1"></td>
           </tr>
-          <tr>
-            <th scope="row">SMR:Thoracic Spine</th>
-            <td class="text-center">1</td>
-            <td class="text-center">30 seconds</td>
-          </tr>
-          <tr>
-              <th scope="row">Static Stretch: Static Gastrocnemius Stretch</th>
-              <td class="text-center">1</td>
-              <td class="text-center">30 seconds</td>
-          </tr>
-          <tr>
-              <th scope="row">Static Stretch: Static Standing TFL Stretch</th>
-              <td class="text-center">1</td>
-              <td class="text-center">30 seconds</td>
-          </tr>
-          <tr>
-              <th scope="row">Static Stretch: Static Erector Spinae Stretch</th>
-              <td class="text-center">1</td>
-              <td class="text-center">30 seconds</td>
-            </tr>
         </tbody>
       </table>
       <table class="table table-hover table-dark table-bordered input-font" id="movementPrepTable">
           <thead>
             <tr>
-              <td colspan="5" class="text-center bg-primary">Total-Body Stabilization Training Circuit</td>
+              <td colspan="6" class="text-center bg-primary">CORE / BALANCE / PLYOMETRIC</td>
             </tr>
-              <th scope="col" class="text-center">Movement Preparation</th>
+              <th scope="col">Exercise:</th>
               <th scope="col" class="text-center">Sets</th>
               <th scope="col" class="text-center">Reps</th>
               <th scope="col" class="text-center">Tempo</th>
               <th scope="col" class="text-center">Rest</th>
+              <th scope="col" class="text-center">Coaching Tip</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th scope="row">Prone Iso Abs</th>
-              <td class="text-center">2</td>
-              <td class="text-center">10</td>
-              <td class="text-center">Controlled</td>
-              <td class="text-center">0 seconds</td>
+              <th scope="row" id="coreEx1"></th>
+              <td class="text-center" id="coreSet1"></td>
+              <td class="text-center" id="coreReps1"></td>
+              <td class="text-center" id="coreTempo1"></td>
+              <td class="text-center" id="coreRest1"></td>
+              <td class="text-center" id="coreCoach1"></td>
             </tr>
             <tr>
-              <th scope="row">Floor Bridges</th>
-              <td class="text-center">2</td>
-              <td class="text-center">10</td>
-              <td class="text-center">Controlled</td>
-              <td class="text-center">0 seconds</td>
+              <th scope="row" id="plyoEx1"></th>
+              <td class="text-center" id="plyoSet1"></td>
+              <td class="text-center" id="plyoReps1"></td>
+              <td class="text-center" id="plyoTempo1"></td>
+              <td class="text-center" id="plyoRest1"></td>
+              <td class="text-center" id="plyoCoach1"></td>
             </tr>
-            <tr>
-              <th scope="row">Squat Jumps w/ Stabilization</th>
-              <td class="text-center">2</td>
-              <td class="text-center">10</td>
-              <td class="text-center">Controlled</td>
-              <td class="text-center">60 seconds</td>
+            <tr class="ghost">
+              <th scope="row"></th>
+              <td class="text-center"></td>
+              <td class="text-center"></td>
+              <td class="text-center"></td>
+              <td class="text-center"></td>
             </tr>
           </tbody>
         </table>
         <table class="table table-hover table-dark table-bordered input-font" id="resistanceTable">
             <thead>
               <tr>
-                <td colspan="6" class="text-center bg-primary">Total-Body Stabilization Training Circuit</td>
+                <td colspan="6" class="text-center bg-primary">RESISTANCE</td>
               </tr>
-                <th scope="col" class="text-center">Resistance</th>
+                <th scope="col">Exercise:</th>
                 <th scope="col" class="text-center">Sets</th>
                 <th scope="col" class="text-center">Reps</th>
                 <th scope="col" class="text-center">Tempo</th>
-                <th scope="col" class="text-center">Intensity</th>
                 <th scope="col" class="text-center">Rest</th>
+                <th scope="col" class="text-center">Coaching Tip</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <th scope="row">Station 1: Ball Wall Squat, Curl to Press</th>
-                <td class="text-center">2</td>
-                <td class="text-center">12</td>
-                <td class="text-center">Slow</td>
-                <td class="text-center">50-75%</td>
-                <td class="text-center">0 seconds</td>
+                <th scope="row" id="resistEx1"></th>
+                <td class="text-center" id="resistSet1"></td>
+                <td class="text-center" id="resistReps1"></td>
+                <td class="text-center" id="resistTempo1"></td>
+                <td class="text-center" id="resistRest1"></td>
+                <td class="text-center" id="resistCoach1"></td>
               </tr>
               <tr>
-                <th scope="row">Station 2: Single-Leg Squat to Row</th>
-                <td class="text-center">2</td>
-                <td class="text-center">12</td>
-                <td class="text-center">Slow</td>
-                <td class="text-center">50-75%</td>
-                <td class="text-center">0 seconds</td>
+                <th scope="row" id="resistEx2"></th>
+                <td class="text-center" id="resistSet2"></td>
+                <td class="text-center" id="resistReps2"></td>
+                <td class="text-center" id="resistTempo2"></td>
+                <td class="text-center" id="resistRest2"></td>
+                <td class="text-center" id="resistCoach2"></td>
               </tr>
               <tr>
-                <th scope="row">Station 3: Step-Up, Balance to Scaption</th>
-                <td class="text-center">1</td>
-                <td class="text-center">12</td>
-                <td class="text-center">Slow</td>
-                <td class="text-center">50-75%</td>
-                <td class="text-center">0 seconds</td>
+                <th scope="row" id="resistEx3"></th>
+                <td class="text-center" id="resistSet3"></td>
+                <td class="text-center" id="resistReps3"></td>
+                <td class="text-center" id="resistTempo3"></td>
+                <td class="text-center" id="resistRest3"></td>
+                <td class="text-center" id="resistCoach3"></td>
               </tr>
-              <tr>
-                  <th scope="row">Station 4: Single-Leg Romanian Deadlift, Curl to Press</th>
-                  <td class="text-center">1</td>
-                  <td class="text-center">12</td>
-                  <td class="text-center">Slow</td>
-                  <td class="text-center">50-75%</td>
-                  <td class="text-center">60 seconds</td>
+              <tr class="ghost" id="resistTr4">
+                <th scope="row" id="resistEx4"></th>
+                <td class="text-center" id="resistSet4"></td>
+                <td class="text-center" id="resistReps4"></td>
+                <td class="text-center" id="resistTempo4"></td>
+                <td class="text-center" id="resistRest4"></td>
+                <td class="text-center" id="resistCoach4"></td>
               </tr>
             </tbody>
           </table>
           <table class="table table-hover table-dark table-bordered input-font" id="coolDownTable">
               <thead>
                 <tr>
-                  <td colspan="1" class="text-center bg-primary">Total-Body Stabilization Training Circuit</td>
+                  <td colspan="4" class="text-center bg-primary">COOL-DOWN</td>
                 </tr>
-                  <th scope="col" class="text-center">Cool-Down</th>
+                <tr>
+                  <th scope="col">Exercise:</th>
+                  <th scope="col" class="text-center">Sets</th>
+                  <th scope="col" class="text-center">Time</th>
+                  <th scope="col" class="text-center">Coaching Tip</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row" class="text-center">Perform SMR and static stretching for the same muscle groups targeted during the warm-up.</th>
+                  <th scope="row" id="coolDownEx1"></th>
+                  <td class="text-center" id="coolDownSet1"></td>
+                  <td class="text-center" id="coolDownTime1"></td>
+                  <td class="text-center" id="coolDownCoach1"></td>
+                </tr>
+                <tr class="ghost" id="coolDownTr2">
+                  <th scope="row" id="coolDownSmrEx1"></th>
+                  <td class="text-center" id="coolDownSmrSet1"></td>
+                  <td class="text-center" id="coolDownSmrTime1"></td>
+                  <td class="text-center" id="coolDownSmrCoach1"></td>
                 </tr>
               </tbody>
             </table>
             <div class="form-row text-center">
-                <div class="col-md-12">
-                  <a href="mobility.html">
-                    <button class="btn text-center mt-3 btn-primary btn-lg top btn-text" type="submit"><b>NEXT</b></button></a>
-                </div>
+              <div class="col-md-12">
+                <a href="mobility.html">
+                  <button class="btn text-center mt-3 btn-primary btn-lg top btn-text" type="submit"><b>NEXT</b></button>
+                </a>
               </div>
+            </div>
     </div>
 
-  
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

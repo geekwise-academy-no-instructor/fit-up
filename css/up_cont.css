@@ -38,3 +38,7 @@ option{
   font-family: "Titillium Web";
   font-weight: 400;
 }
+
+.ghost {
+  display: none;
+}
